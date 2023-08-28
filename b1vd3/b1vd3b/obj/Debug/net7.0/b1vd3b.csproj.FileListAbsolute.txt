@@ -1,0 +1,14 @@
+C:\OOP\b1vd3\b1vd3b\bin\Debug\net7.0\b1vd3b.exe
+C:\OOP\b1vd3\b1vd3b\bin\Debug\net7.0\b1vd3b.deps.json
+C:\OOP\b1vd3\b1vd3b\bin\Debug\net7.0\b1vd3b.runtimeconfig.json
+C:\OOP\b1vd3\b1vd3b\bin\Debug\net7.0\b1vd3b.dll
+C:\OOP\b1vd3\b1vd3b\bin\Debug\net7.0\b1vd3b.pdb
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.AssemblyInfoInputs.cache
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.AssemblyInfo.cs
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.csproj.CoreCompileInputs.cache
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.dll
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\refint\b1vd3b.dll
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.pdb
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\b1vd3b.genruntimeconfig.cache
+C:\OOP\b1vd3\b1vd3b\obj\Debug\net7.0\ref\b1vd3b.dll

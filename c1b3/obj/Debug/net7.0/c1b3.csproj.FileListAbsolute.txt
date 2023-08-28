@@ -1,0 +1,14 @@
+C:\OOP\c1b3\bin\Debug\net7.0\c1b3.exe
+C:\OOP\c1b3\bin\Debug\net7.0\c1b3.deps.json
+C:\OOP\c1b3\bin\Debug\net7.0\c1b3.runtimeconfig.json
+C:\OOP\c1b3\bin\Debug\net7.0\c1b3.dll
+C:\OOP\c1b3\bin\Debug\net7.0\c1b3.pdb
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.AssemblyInfoInputs.cache
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.AssemblyInfo.cs
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.csproj.CoreCompileInputs.cache
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.dll
+C:\OOP\c1b3\obj\Debug\net7.0\refint\c1b3.dll
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.pdb
+C:\OOP\c1b3\obj\Debug\net7.0\c1b3.genruntimeconfig.cache
+C:\OOP\c1b3\obj\Debug\net7.0\ref\c1b3.dll
