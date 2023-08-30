@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace c1b3
 {
     class programm 
@@ -7,12 +9,18 @@ namespace c1b3
         static void Main(string[] args)
         {
             int n ;
-            Console.Write("n= "); n=float.Parse(Console.ReadLine());
+            Console.Write("n= "); n=int.Parse(Console.ReadLine());
+            Console.Write("A = [");
+            string nhap=Console.ReadLine();
+            nhap=nhap.Trim(']');
+            //xóa các kí tự đầu cuối khi là ]
+            string [] bd= nhap.Split(new string[] {", "},StringSplitOptions.RemoveEmptyEntries);
             float []A = new float [n];
             for (int i = 0; i <n; i++) 
             {
-                A[i] =float.Parse(Console.ReadLine());
+                A[i] = float.Parse(bd[i]);
             }
+
             //tinh tong
             float tong=0;
             foreach (float i in A)
@@ -70,16 +78,54 @@ namespace c1b3
             // sắp xếp phần tử giảm dần Array.Sort(A, (x, y) => y.CompareTo(x));
             Array.Sort(A);
             // Array.Sort(A, (x, y) => y.CompareTo(x));
-            Console.Write("A_tang= [");
+            Console.Write("A_tang = [");
             for (int i=0;i<n;i++) 
             {
                if (i==A.Length-1)
-                {Console.Write(A[i]+"]");}
+                {Console.WriteLine(A[i]+"]");}
                else
                 {Console.Write(A[i]+", ");}
             }
             // sắp xếp chẵn lẻ 
+            int [] intA = new int[n];
+            for (int i=0;i<n;i++)
+            {
+                intA[i]=(int) A[i];
+                // ép kiểu int với từng phần tử trong A 
+            }
+            int iB=0,demchan=0;
+            foreach (int i in A)
+            {
+                if (i%2==0)
+                {demchan+=1;}
+            }
+            int [] B=new int [demchan]; 
+            for (int i=0;i<n;i++)
+            {
+                if (intA[i]%2==0)
+                {
+                    B[iB]=intA[i];iB+=1;
+                }
+            }
+            Array.Resize(ref B,n);
+            foreach (int i in intA)
+            {
+                if (i%2!=0)
+                {B[demchan]=i;demchan+=1;}
+            } 
             Console.Write("A_biendoi = [");
+            for (int i=0;i<n;i++)
+            {
+                if (B[i]%2==0)
+                {Console.Write(B[i]+", ");}
+                else 
+                {
+                    if (i==n-1)
+                    {Console.Write(B[i]+"]");}
+                    else 
+                    {Console.Write(B[i]+", ");}
+                }
+            } 
             
 
 

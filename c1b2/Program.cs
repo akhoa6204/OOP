@@ -21,8 +21,8 @@ namespace c1b2
         }   
         static void Nhap(out float a ,out float b,out string toantu)
         {
-            Console.Write("a= ");a=float.Parse(Console.ReadLine());
-            Console.Write("b= ");b=float.Parse(Console.ReadLine());
+            Console.Write("a=");a=float.Parse(Console.ReadLine());
+            Console.Write("b=");b=float.Parse(Console.ReadLine());
             Console.Write("Toan tu: ");toantu=Console.ReadLine();
         }
         static float Thuchien( float a, ref float b, ref string toantu)
