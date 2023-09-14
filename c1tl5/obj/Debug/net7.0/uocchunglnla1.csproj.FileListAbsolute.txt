@@ -1,0 +1,14 @@
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.AssemblyInfoInputs.cache
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.AssemblyInfo.cs
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.csproj.CoreCompileInputs.cache
+C:\OOP\uocchunglnla1\bin\Debug\net7.0\uocchunglnla1.exe
+C:\OOP\uocchunglnla1\bin\Debug\net7.0\uocchunglnla1.deps.json
+C:\OOP\uocchunglnla1\bin\Debug\net7.0\uocchunglnla1.runtimeconfig.json
+C:\OOP\uocchunglnla1\bin\Debug\net7.0\uocchunglnla1.dll
+C:\OOP\uocchunglnla1\bin\Debug\net7.0\uocchunglnla1.pdb
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.dll
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\refint\uocchunglnla1.dll
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.pdb
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.genruntimeconfig.cache
+C:\OOP\uocchunglnla1\obj\Debug\net7.0\ref\uocchunglnla1.dll

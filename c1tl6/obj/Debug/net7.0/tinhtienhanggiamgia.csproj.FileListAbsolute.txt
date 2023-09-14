@@ -1,0 +1,14 @@
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.AssemblyInfoInputs.cache
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.AssemblyInfo.cs
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.csproj.CoreCompileInputs.cache
+C:\OOP\tinhtienhanggiamgia\bin\Debug\net7.0\tinhtienhanggiamgia.exe
+C:\OOP\tinhtienhanggiamgia\bin\Debug\net7.0\tinhtienhanggiamgia.deps.json
+C:\OOP\tinhtienhanggiamgia\bin\Debug\net7.0\tinhtienhanggiamgia.runtimeconfig.json
+C:\OOP\tinhtienhanggiamgia\bin\Debug\net7.0\tinhtienhanggiamgia.dll
+C:\OOP\tinhtienhanggiamgia\bin\Debug\net7.0\tinhtienhanggiamgia.pdb
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.dll
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\refint\tinhtienhanggiamgia.dll
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.pdb
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\tinhtienhanggiamgia.genruntimeconfig.cache
+C:\OOP\tinhtienhanggiamgia\obj\Debug\net7.0\ref\tinhtienhanggiamgia.dll

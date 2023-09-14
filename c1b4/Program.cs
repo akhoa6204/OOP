@@ -1,7 +1,5 @@
 ﻿// espee https://aka.ms/new-console-template for more information
 using System;
-using System.ComponentModel.DataAnnotations;
-
 namespace c1b4
 {
     class program
@@ -14,7 +12,7 @@ namespace c1b4
             int [,] A =new int [n,n];
             for (int i=0;i<n;i++) /// duyệt theo từng dòng 
             {
-                string [] B= Console.ReadLine().Split(); /// tách chuỗi thành mảng 
+                  string [] B= Console.ReadLine().Split(); /// tách chuỗi thành mảng 
                 for (int j=0;j<n;j++) /// duyệt theo từng cột 
                 {
                     A[i,j]=int.Parse(B[j]); /// thêm từng phần tử của mảng 1 chiều vào theo từng dòng của mảng 2 chiều 
