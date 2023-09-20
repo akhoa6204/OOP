@@ -2,15 +2,26 @@
 {
     string Tensach, Tacgia;
     int NamXB, Soluong;
-    public Sach(string tensach="" , string tacgia ="" , int namxb=0, int soluong=0)
-    {
-        Tensach=tensach;
-        Tacgia=tacgia; 
-        NamXB=namxb;
-        Soluong=soluong;
-    }
-    // public Sach ()
-    // {}
+    // 3 kiểu hàm khởi tạo  
+    // số 1 
+    // public Sach(string tensach="" , string tacgia ="" , int namxb=0, int soluong=0)
+    // {
+    //     Tensach=tensach;
+    //     Tacgia=tacgia; 
+    //     NamXB=namxb;
+    //     Soluong=soluong;
+    // }
+    // số 2
+    // public Sach(string tensach,string tacgia,int namxb,int soluong)
+    // {
+    //     Tensach=tensach;
+    //     Tacgia=tacgia;
+    //     NamXB=namxb; 
+    //     Soluong=soluong;
+    // }
+    // số 3 
+    public Sach ()
+    {}
     public void Nhap()
     { 
         Console.Write("Tensach: ");
@@ -27,14 +38,17 @@
         Console.Write("Ten sach: {0}\nTac gia: {1}\nNamXB: {2}\nSoluong: {3}",Tensach,Tacgia,NamXB,Soluong);
     }
     ~Sach()
-    {
-        Console.WriteLine("Doi tuong Sach da huy");
-    }
+    {}
 }
 class programm 
 {
     static void Main(string[] args)
     {
+        // dùng kiểu số 1
+        // Sach book = new Sach();
+        // dùng kiểu số 2 
+        // Sach book = new Sach("","",0,0);
+        // dùng kiểu số 3
         Sach book = new Sach();
         book.Nhap();
         book.Xuat();
