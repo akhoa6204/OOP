@@ -46,12 +46,21 @@
     
     public void Xuat()
     {
-        Console.WriteLine($"Thong ke: {dscn[0]}");
-        Console.WriteLine($"Nam: {dsgt[0]}\nNu: {dscn[0]-dsgt[0]}");   
-        Console.WriteLine($"THQL: {dscn[1]}"); 
-        Console.WriteLine($"Nam: {dsgt[1]}\nNu: {dscn[1]-dsgt[1]}"); 
-        Console.WriteLine($"QuantriHTTT: {dscn[2]}");
-        Console.WriteLine($"Nam: {dsgt[2]}\nNu: {dscn[2]-dsgt[2]}"); 
+        if (dscn[0]>0)
+            {
+                Console.WriteLine($"Thong ke: {dscn[0]}");
+                Console.WriteLine($"Nam: {dsgt[0]}\nNu: {dscn[0]-dsgt[0]}");
+            }
+        if (dscn[1]>0)    
+            {
+                Console.WriteLine($"THQL: {dscn[1]}"); 
+                Console.WriteLine($"Nam: {dsgt[1]}\nNu: {dscn[1]-dsgt[1]}");
+            } 
+        if (dscn[2]>0)
+            {
+                Console.WriteLine($"QuantriHTTT: {dscn[2]}");
+                Console.WriteLine($"Nam: {dsgt[2]}\nNu: {dscn[2]-dsgt[2]}"); 
+            }
     }
 }
 class programm
