@@ -1,8 +1,6 @@
 ﻿class NhaphocTKTH
 {
     string hoten, ngsinh,gioitinh, chuyennganh;
-    int [] dscn =new int[3];
-    int [] dsgt =new int[3];
     public NhaphocTKTH()
     {}
     public void Nhap()
@@ -16,6 +14,7 @@
         Console.Write("Chuyennganh(Thongke, THQL, QuantriHTTT): ");
         chuyennganh= Console.ReadLine();
     }
+    int [] dscn =new int[3];
     public void LocSV()
     {   
         if (chuyennganh=="Thongke")
@@ -25,6 +24,7 @@
         else 
         {dscn[2]+=1;}  
     }
+    int [] dsgt =new int[3];
     public void ThongKe()
     {    
         if (chuyennganh=="Thongke")
@@ -62,6 +62,8 @@
                 Console.WriteLine($"Nam: {dsgt[2]}\nNu: {dscn[2]-dsgt[2]}"); 
             }
     }
+    ~NhaphocTKTH()
+    {}
 }
 class programm
 {
