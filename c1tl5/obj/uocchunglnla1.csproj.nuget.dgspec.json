@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OOP\\uocchunglnla1\\uocchunglnla1.csproj": {}
+    "D:\\OOP\\c1tl5\\uocchunglnla1.csproj": {}
   },
   "projects": {
-    "C:\\OOP\\uocchunglnla1\\uocchunglnla1.csproj": {
+    "D:\\OOP\\c1tl5\\uocchunglnla1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OOP\\uocchunglnla1\\uocchunglnla1.csproj",
+        "projectUniqueName": "D:\\OOP\\c1tl5\\uocchunglnla1.csproj",
         "projectName": "uocchunglnla1",
-        "projectPath": "C:\\OOP\\uocchunglnla1\\uocchunglnla1.csproj",
+        "projectPath": "D:\\OOP\\c1tl5\\uocchunglnla1.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\OOP\\uocchunglnla1\\obj\\",
+        "outputPath": "D:\\OOP\\c1tl5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

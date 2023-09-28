@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq.Expressions;
 class Triangle
 {
     int a,b,c;

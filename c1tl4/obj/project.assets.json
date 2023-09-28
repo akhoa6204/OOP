@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\OOP\\sodongian\\sodongian.csproj",
+      "projectUniqueName": "D:\\OOP\\c1tl4\\sodongian.csproj",
       "projectName": "sodongian",
-      "projectPath": "C:\\OOP\\sodongian\\sodongian.csproj",
+      "projectPath": "D:\\OOP\\c1tl4\\sodongian.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\OOP\\sodongian\\obj\\",
+      "outputPath": "D:\\OOP\\c1tl4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

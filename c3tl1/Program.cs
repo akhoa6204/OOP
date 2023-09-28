@@ -1,67 +1,54 @@
 ﻿class NhaphocTKTH
 {
-    string hoten, ngsinh,gioitinh, chuyennganh;
+    string hoten,ngsinh,gioitinh, chuyennganh;
+    public NhaphocTKTH(string Hoten="", string Ngsinh="",string Gioitinh="", string Chuyennganh="")
+    {
+        hoten = Hoten;
+        ngsinh = Ngsinh;
+        gioitinh = Gioitinh;
+        chuyennganh = Chuyennganh;
+    }
+    public static int [] hs =new int [3]; 
+    public static int [] hsn =new int [3];
     public NhaphocTKTH()
-    {}
-    public void Nhap()
     {
         Console.Write("Hoten: ");
-        hoten = Console.ReadLine();
-        Console.Write("Ngaysinh: ");
+        hoten = Console.ReadLine().ToUpper();
+        Console.Write("Ngaysinh (dd/mm/yy): ");
         ngsinh = Console.ReadLine();
         Console.Write("Gioitinh(Nam,Nu): ");
-        gioitinh= Console.ReadLine();
+        gioitinh= Console.ReadLine().ToUpper();
         Console.Write("Chuyennganh(Thongke, THQL, QuantriHTTT): ");
-        chuyennganh= Console.ReadLine();
+        chuyennganh= Console.ReadLine().ToUpper();
     }
-    int [] dscn =new int[3];
     public void LocSV()
     {   
-        if (chuyennganh=="Thongke")
-        {dscn[0]+=1;}
+        if (chuyennganh=="THONGKE")
+        {hs[0]+=1;}
         else if (chuyennganh=="THQL")
-        {dscn[1]+=1;}
-        else 
-        {dscn[2]+=1;}  
+        {hs[1]+=1;}
+        else if (chuyennganh=="QUANTRIHTTT")
+        {hs[2]+=1;}  
+        Console.WriteLine($"hoten: {hoten}, ngsinh: {ngsinh}, gioinh: {gioitinh}, chuyennganh: {chuyennganh}");
     }
-    int [] dsgt =new int[3];
-    public void ThongKe()
-    {    
-        if (chuyennganh=="Thongke")
+    public void Thongke()
+    {   
+        if (chuyennganh=="THONGKE")
         {
-            if (gioitinh=="Nam")
-                {dsgt[0]+=1;}
+            if (gioitinh=="NAM")
+                {hsn[0]+=1;}
         }
         else if (chuyennganh=="THQL")
         {
-            if (gioitinh=="Nam")
-                {dsgt[1]+=1;}
+            if (gioitinh=="NAM")
+                {hsn[1]+=1;}
         }
-        else
+        else if (chuyennganh=="QUANTRIHTTT")
         {
-            if (gioitinh=="Nam")
-                {dsgt[2]+=1;}
+            if (gioitinh=="NAM")
+                {hsn[2]+=1;}
         }
-    }
-    
-    public void Xuat()
-    {
-        if (dscn[0]>0)
-            {
-                Console.WriteLine($"Thong ke: {dscn[0]}");
-                Console.WriteLine($"Nam: {dsgt[0]}\nNu: {dscn[0]-dsgt[0]}");
-            }
-        if (dscn[1]>0)    
-            {
-                Console.WriteLine($"THQL: {dscn[1]}"); 
-                Console.WriteLine($"Nam: {dsgt[1]}\nNu: {dscn[1]-dsgt[1]}");
-            } 
-        if (dscn[2]>0)
-            {
-                Console.WriteLine($"QuantriHTTT: {dscn[2]}");
-                Console.WriteLine($"Nam: {dsgt[2]}\nNu: {dscn[2]-dsgt[2]}"); 
-            }
-    }
+    }               
     ~NhaphocTKTH()
     {}
 }
@@ -69,18 +56,17 @@ class programm
 {
     static void Main(string [] args)
     {
-        string tieptuc ;
         NhaphocTKTH hs = new NhaphocTKTH();
-        while (true)
-        {
-            hs.Nhap();
-            Console.WriteLine("tieptuc: ");
-            tieptuc=Console.ReadLine();
-            hs.LocSV();
-            hs.ThongKe(); 
-            if (tieptuc != "t" && tieptuc!="T" )
-            {break;}
-        }  
-        hs.Xuat();
+        NhaphocTKTH hs1 = new NhaphocTKTH();
+        NhaphocTKTH hs2 = new NhaphocTKTH ();
+        hs.LocSV();
+        hs1.LocSV();
+        hs2.LocSV();
+        Console.WriteLine($"Thong ke: {NhaphocTKTH.hs[0]}");
+        Console.WriteLine($"Nam: {NhaphocTKTH.hsn[0]}\nNu: {NhaphocTKTH.hs[0]-NhaphocTKTH.hsn[0]}");
+        Console.WriteLine($"THQl: {NhaphocTKTH.hs[1]}");
+        Console.WriteLine($"Nam: {NhaphocTKTH.hsn[1]}\nNu: {NhaphocTKTH.hs[1]-NhaphocTKTH.hsn[1]}");
+        Console.WriteLine($"QuantriHTTT: {NhaphocTKTH.hs[2]}");
+        Console.WriteLine($"Nam: {NhaphocTKTH.hsn[2]}\nNu: {NhaphocTKTH.hs[2]-NhaphocTKTH.hsn[2]}");
     }
 }

@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 namespace uocchunglnla1
 {
     class program

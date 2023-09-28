@@ -12,3 +12,17 @@ C:\OOP\uocchunglnla1\obj\Debug\net7.0\refint\uocchunglnla1.dll
 C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.pdb
 C:\OOP\uocchunglnla1\obj\Debug\net7.0\uocchunglnla1.genruntimeconfig.cache
 C:\OOP\uocchunglnla1\obj\Debug\net7.0\ref\uocchunglnla1.dll
+D:\OOP\c1tl5\bin\Debug\net7.0\uocchunglnla1.exe
+D:\OOP\c1tl5\bin\Debug\net7.0\uocchunglnla1.deps.json
+D:\OOP\c1tl5\bin\Debug\net7.0\uocchunglnla1.runtimeconfig.json
+D:\OOP\c1tl5\bin\Debug\net7.0\uocchunglnla1.dll
+D:\OOP\c1tl5\bin\Debug\net7.0\uocchunglnla1.pdb
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.AssemblyInfoInputs.cache
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.AssemblyInfo.cs
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.csproj.CoreCompileInputs.cache
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.dll
+D:\OOP\c1tl5\obj\Debug\net7.0\refint\uocchunglnla1.dll
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.pdb
+D:\OOP\c1tl5\obj\Debug\net7.0\uocchunglnla1.genruntimeconfig.cache
+D:\OOP\c1tl5\obj\Debug\net7.0\ref\uocchunglnla1.dll

@@ -1,7 +1,9 @@
-﻿class Meo 
+﻿using System.Reflection.Metadata;
+
+class Meo 
 {
     string Ten,Giong,Gioitinh;
-    float Tuoi;
+    int Tuoi;
     public Meo(string ten="",string giong="",string gioitinh="",int tuoi=0)
     {
         Ten=ten;
@@ -9,16 +11,8 @@
         Gioitinh=gioitinh;
         Tuoi=tuoi;
     }
-    // public Meo(string ten,string giong,string gioitinh;int tuoi)
-    // {
-    //     Ten=ten;
-    //     Giong=giong;
-    //     Gioitinh=gioitinh;
-    //     Tuoi=tuoi;
-    // }
-    // public  Meo ()
-    // {}
-    public void Nhap ()
+    public static int Dem=0;
+    public Meo()
     {
         
             Console.Write("Ten: ");
@@ -28,13 +22,13 @@
             Console.Write("Gioitinh: ");
             Gioitinh=Console.ReadLine().ToUpper();
             Console.Write("Tuoi: ");
-            Tuoi=int.Parse(Console.ReadLine());       
+            Tuoi=int.Parse(Console.ReadLine());   
+            Dem++;    
     }
     
-    public string Xuat()
+    public void Xuat()
     {
-        string A="Ten: "+Ten+ " Giong: "+Giong+" Gioitinh: "+Gioitinh+" Tuoi: "+Tuoi;
-        return A;
+        Console.WriteLine("Ten: "+Ten+ " Giong: "+Giong+" Gioitinh: "+Gioitinh+" Tuoi: "+Tuoi);
     }
     ~ Meo ()
     {}
@@ -43,24 +37,13 @@ class programm
 {
     static void Main(string[] args)
     {   
-        string tieptuc;int dem=0;
-        string [] ds =new string[1];
-        Meo m=new Meo();
-        while (true)
-        {
-             m.Nhap();
-            Console.Write("tieptuc: ");
-            tieptuc=Console.ReadLine();
-            ds[dem]=m.Xuat();
-            if (tieptuc!="t" & tieptuc!="T") 
-            {break;}
-            dem+=1;
-            Array.Resize(ref ds,dem+1);   
-        }
-        foreach (string i in ds)
-        {
-            Console.WriteLine(i);
-        }
-        Console.WriteLine("Soluong Meo: "+(dem+1));
+        Meo m= new Meo();
+        Meo m1= new Meo();
+        Meo m2= new Meo();
+        m.Xuat();
+        m1.Xuat();
+        m2.Xuat();
+        Console.WriteLine("So luong Meo: "+Meo.Dem);
     }
+
 }

@@ -12,16 +12,16 @@
     //     Soluong=soluong;
     // }
     // số 2
-    // public Sach(string tensach,string tacgia,int namxb,int soluong)
-    // {
-    //     Tensach=tensach;
-    //     Tacgia=tacgia;
-    //     NamXB=namxb; 
-    //     Soluong=soluong;
-    // }
+    public Sach(string tensach,string tacgia,int namxb,int soluong)
+    {
+        Tensach=tensach;
+        Tacgia=tacgia;
+        NamXB=namxb; 
+        Soluong=soluong;
+    }
     // số 3 
-    public Sach ()
-    {}
+    // public Sach ()
+    // {}
     public void Nhap()
     { 
         Console.Write("Tensach: ");
@@ -35,7 +35,7 @@
     }
     public void Xuat()
     {
-        Console.Write("Ten sach: {0}\nTac gia: {1}\nNamXB: {2}\nSoluong: {3}",Tensach,Tacgia,NamXB,Soluong);
+        Console.Write("Ten sach: {0} Tac gia: {1} NamXB: {2} Soluong: {3}",Tensach,Tacgia,NamXB,Soluong);
     }
     ~Sach()
     {}
@@ -47,9 +47,9 @@ class programm
         // dùng kiểu số 1
         // Sach book = new Sach();
         // dùng kiểu số 2 
-        // Sach book = new Sach("","",0,0);
+        Sach book = new Sach("","",0,0);
         // dùng kiểu số 3
-        Sach book = new Sach();
+        // Sach book = new Sach();
         book.Nhap();
         book.Xuat();
     }

@@ -12,3 +12,17 @@ C:\OOP\sodongian\obj\Debug\net7.0\refint\sodongian.dll
 C:\OOP\sodongian\obj\Debug\net7.0\sodongian.pdb
 C:\OOP\sodongian\obj\Debug\net7.0\sodongian.genruntimeconfig.cache
 C:\OOP\sodongian\obj\Debug\net7.0\ref\sodongian.dll
+D:\OOP\c1tl4\bin\Debug\net7.0\sodongian.exe
+D:\OOP\c1tl4\bin\Debug\net7.0\sodongian.deps.json
+D:\OOP\c1tl4\bin\Debug\net7.0\sodongian.runtimeconfig.json
+D:\OOP\c1tl4\bin\Debug\net7.0\sodongian.dll
+D:\OOP\c1tl4\bin\Debug\net7.0\sodongian.pdb
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.AssemblyInfoInputs.cache
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.AssemblyInfo.cs
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.csproj.CoreCompileInputs.cache
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.dll
+D:\OOP\c1tl4\obj\Debug\net7.0\refint\sodongian.dll
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.pdb
+D:\OOP\c1tl4\obj\Debug\net7.0\sodongian.genruntimeconfig.cache
+D:\OOP\c1tl4\obj\Debug\net7.0\ref\sodongian.dll
