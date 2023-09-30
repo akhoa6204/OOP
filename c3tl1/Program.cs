@@ -1,13 +1,6 @@
 ﻿class NhaphocTKTH
 {
     string hoten,ngsinh,gioitinh, chuyennganh;
-    public NhaphocTKTH(string Hoten="", string Ngsinh="",string Gioitinh="", string Chuyennganh="")
-    {
-        hoten = Hoten;
-        ngsinh = Ngsinh;
-        gioitinh = Gioitinh;
-        chuyennganh = Chuyennganh;
-    }
     public static int [] hs =new int [3]; 
     public static int [] hsn =new int [3];
     public NhaphocTKTH()
@@ -16,7 +9,7 @@
         hoten = Console.ReadLine().ToUpper();
         Console.Write("Ngaysinh (dd/mm/yy): ");
         ngsinh = Console.ReadLine();
-        Console.Write("Gioitinh(Nam,Nu): ");
+        Console.Write("Gioitinh(NAM,NU): ");
         gioitinh= Console.ReadLine().ToUpper();
         Console.Write("Chuyennganh(Thongke, THQL, QuantriHTTT): ");
         chuyennganh= Console.ReadLine().ToUpper();

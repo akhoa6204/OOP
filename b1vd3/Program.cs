@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Security.Cryptography.X509Certificates;
-
-namespace b1vd3ab {
+﻿namespace b1vd3ab {
     class program  {
         static void Main(string[] args) 
         {

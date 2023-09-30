@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-namespace b1vd3c {
+﻿namespace b1vd3c {
     class program  {
         static void Main(string[] args) 
         {
