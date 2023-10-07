@@ -1,8 +1,7 @@
 ﻿class NhaphocTKTH
 {
     string hoten,ngsinh,gioitinh, chuyennganh;
-    public static int [] hs =new int [3]; 
-    public static int [] hsn =new int [3];
+    public static int [,] hocsinh =new int [3,3]; 
     public NhaphocTKTH()
     {
         Console.Write("Hoten: ");
@@ -17,35 +16,41 @@
     public void LocSV()
     {   
         if (chuyennganh=="THONGKE")
-        {hs[0]+=1;}
+        {hocsinh[0,0]+=1;}
         else if (chuyennganh=="THQL")
-        {hs[1]+=1;}
+        {hocsinh[0,1]+=1;}
         else if (chuyennganh=="QUANTRIHTTT")
-        {hs[2]+=1;}  
+        {hocsinh[0,2]+=1;}  
         Console.WriteLine($"hoten: {hoten}, ngsinh: {ngsinh}, gioinh: {gioitinh}, chuyennganh: {chuyennganh}");
     }
-    public void Thongke()
+    public void  Thongke()
     {   
         if (chuyennganh=="THONGKE")
         {
             if (gioitinh=="NAM")
-                {hsn[0]+=1;}
+                {hocsinh[1,0]+=1;}
+            else if (gioitinh=="NU")
+                {hocsinh[2,0]+=1;}
         }
         else if (chuyennganh=="THQL")
         {
             if (gioitinh=="NAM")
-                {hsn[1]+=1;}
+                {hocsinh[1,1]+=1;}
+            else if (gioitinh=="NU")
+                {hocsinh[2,1]+=1;}
         }
         else if (chuyennganh=="QUANTRIHTTT")
         {
             if (gioitinh=="NAM")
-                {hsn[2]+=1;}
+                {hocsinh[1,2]+=1;}
+            else if (gioitinh=="NU")
+                {hocsinh[2,2]+=1;}
         }
     }               
     ~NhaphocTKTH()
     {}
 }
-class programm
+class Programm
 {
     static void Main(string [] args)
     {
@@ -55,11 +60,14 @@ class programm
         hs.LocSV();
         hs1.LocSV();
         hs2.LocSV();
-        Console.WriteLine($"Thong ke: {NhaphocTKTH.hs[0]}");
-        Console.WriteLine($"Nam: {NhaphocTKTH.hsn[0]}\nNu: {NhaphocTKTH.hs[0]-NhaphocTKTH.hsn[0]}");
-        Console.WriteLine($"THQl: {NhaphocTKTH.hs[1]}");
-        Console.WriteLine($"Nam: {NhaphocTKTH.hsn[1]}\nNu: {NhaphocTKTH.hs[1]-NhaphocTKTH.hsn[1]}");
-        Console.WriteLine($"QuantriHTTT: {NhaphocTKTH.hs[2]}");
-        Console.WriteLine($"Nam: {NhaphocTKTH.hsn[2]}\nNu: {NhaphocTKTH.hs[2]-NhaphocTKTH.hsn[2]}");
+        hs.Thongke();
+        hs1.Thongke();
+        hs2.Thongke();
+        Console.WriteLine($"Thong ke: {NhaphocTKTH.hocsinh[0,0]}");
+        Console.WriteLine($"Nam: {NhaphocTKTH.hocsinh[1,0]}\nNu: {NhaphocTKTH.hocsinh[2,0]}");
+        Console.WriteLine($"THQl: {NhaphocTKTH.hocsinh[0,1]}");
+        Console.WriteLine($"Nam: {NhaphocTKTH.hocsinh[1,1]}\nNu: {NhaphocTKTH.hocsinh[2,1]}");
+        Console.WriteLine($"QuantriHTTT: {NhaphocTKTH.hocsinh[0,2]}");
+        Console.WriteLine($"Nam: {NhaphocTKTH.hocsinh[1,2]}\nNu: {NhaphocTKTH.hocsinh[2,2]}");
     }
 }
