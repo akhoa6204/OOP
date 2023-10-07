@@ -1,0 +1,14 @@
+D:\OOP\c4b5\bin\Debug\net7.0\c4b5.exe
+D:\OOP\c4b5\bin\Debug\net7.0\c4b5.deps.json
+D:\OOP\c4b5\bin\Debug\net7.0\c4b5.runtimeconfig.json
+D:\OOP\c4b5\bin\Debug\net7.0\c4b5.dll
+D:\OOP\c4b5\bin\Debug\net7.0\c4b5.pdb
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.AssemblyInfoInputs.cache
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.AssemblyInfo.cs
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.csproj.CoreCompileInputs.cache
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.dll
+D:\OOP\c4b5\obj\Debug\net7.0\refint\c4b5.dll
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.pdb
+D:\OOP\c4b5\obj\Debug\net7.0\c4b5.genruntimeconfig.cache
+D:\OOP\c4b5\obj\Debug\net7.0\ref\c4b5.dll

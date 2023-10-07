@@ -1,0 +1,14 @@
+D:\OOP\c4tl2\bin\Debug\net7.0\c4tl2.exe
+D:\OOP\c4tl2\bin\Debug\net7.0\c4tl2.deps.json
+D:\OOP\c4tl2\bin\Debug\net7.0\c4tl2.runtimeconfig.json
+D:\OOP\c4tl2\bin\Debug\net7.0\c4tl2.dll
+D:\OOP\c4tl2\bin\Debug\net7.0\c4tl2.pdb
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.AssemblyInfoInputs.cache
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.AssemblyInfo.cs
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.csproj.CoreCompileInputs.cache
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.dll
+D:\OOP\c4tl2\obj\Debug\net7.0\refint\c4tl2.dll
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.pdb
+D:\OOP\c4tl2\obj\Debug\net7.0\c4tl2.genruntimeconfig.cache
+D:\OOP\c4tl2\obj\Debug\net7.0\ref\c4tl2.dll
