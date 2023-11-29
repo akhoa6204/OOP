@@ -1,0 +1,14 @@
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.AssemblyInfoInputs.cache
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.AssemblyInfo.cs
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.csproj.CoreCompileInputs.cache
+D:\OOP\c5tl\bin\Debug\net7.0\c5tl.exe
+D:\OOP\c5tl\bin\Debug\net7.0\c5tl.deps.json
+D:\OOP\c5tl\bin\Debug\net7.0\c5tl.runtimeconfig.json
+D:\OOP\c5tl\bin\Debug\net7.0\c5tl.dll
+D:\OOP\c5tl\bin\Debug\net7.0\c5tl.pdb
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.dll
+D:\OOP\c5tl\obj\Debug\net7.0\refint\c5tl.dll
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.pdb
+D:\OOP\c5tl\obj\Debug\net7.0\c5tl.genruntimeconfig.cache
+D:\OOP\c5tl\obj\Debug\net7.0\ref\c5tl.dll

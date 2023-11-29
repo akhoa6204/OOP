@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OOP\\XOR\\XOR.csproj",
+      "projectUniqueName": "D:\\OOP\\c1tl3\\XOR.csproj",
       "projectName": "XOR",
-      "projectPath": "D:\\OOP\\XOR\\XOR.csproj",
+      "projectPath": "D:\\OOP\\c1tl3\\XOR.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\OOP\\XOR\\obj\\",
+      "outputPath": "D:\\OOP\\c1tl3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

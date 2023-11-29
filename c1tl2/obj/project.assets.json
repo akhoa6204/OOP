@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\OOP\\sumsolenghichdao\\sumsolenghichdao.csproj",
+      "projectUniqueName": "D:\\OOP\\c1tl2\\sumsolenghichdao.csproj",
       "projectName": "sumsolenghichdao",
-      "projectPath": "C:\\OOP\\sumsolenghichdao\\sumsolenghichdao.csproj",
+      "projectPath": "D:\\OOP\\c1tl2\\sumsolenghichdao.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\OOP\\sumsolenghichdao\\obj\\",
+      "outputPath": "D:\\OOP\\c1tl2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

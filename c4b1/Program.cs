@@ -52,7 +52,8 @@ class Phanso
         Console.WriteLine("Cong: "+Phanso.Cong(a,b,c,d));
         Console.WriteLine("Tru: "+Phanso.Tru(a,b,c,d));
         Console.WriteLine("Nhan: "+Phanso.Nhan(a,b,c,d));
-        Console.WriteLine("Chia: "+Phanso.Chia(a,b,c,d));}
+        Console.WriteLine("Chia: "+Phanso.Chia(a,b,c,d));
+    }
 }
 class Program
 {

@@ -1,0 +1,14 @@
+D:\OOP\c6b1b\bin\Debug\net7.0\c6b1b.exe
+D:\OOP\c6b1b\bin\Debug\net7.0\c6b1b.deps.json
+D:\OOP\c6b1b\bin\Debug\net7.0\c6b1b.runtimeconfig.json
+D:\OOP\c6b1b\bin\Debug\net7.0\c6b1b.dll
+D:\OOP\c6b1b\bin\Debug\net7.0\c6b1b.pdb
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.AssemblyInfoInputs.cache
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.AssemblyInfo.cs
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.csproj.CoreCompileInputs.cache
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.dll
+D:\OOP\c6b1b\obj\Debug\net7.0\refint\c6b1b.dll
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.pdb
+D:\OOP\c6b1b\obj\Debug\net7.0\c6b1b.genruntimeconfig.cache
+D:\OOP\c6b1b\obj\Debug\net7.0\ref\c6b1b.dll

@@ -1,0 +1,14 @@
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.AssemblyInfoInputs.cache
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.AssemblyInfo.cs
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.csproj.CoreCompileInputs.cache
+D:\OOP\c6tl\bin\Debug\net7.0\c6tl.exe
+D:\OOP\c6tl\bin\Debug\net7.0\c6tl.deps.json
+D:\OOP\c6tl\bin\Debug\net7.0\c6tl.runtimeconfig.json
+D:\OOP\c6tl\bin\Debug\net7.0\c6tl.dll
+D:\OOP\c6tl\bin\Debug\net7.0\c6tl.pdb
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.dll
+D:\OOP\c6tl\obj\Debug\net7.0\refint\c6tl.dll
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.pdb
+D:\OOP\c6tl\obj\Debug\net7.0\c6tl.genruntimeconfig.cache
+D:\OOP\c6tl\obj\Debug\net7.0\ref\c6tl.dll

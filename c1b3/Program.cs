@@ -30,36 +30,6 @@ namespace c1b3
             }
             Console.WriteLine("Tong= "+tong);
             //tinh tich
-            // code tay
-            // float tich=1;
-            // float max=A[0],min=A[0];
-            // int mx=0,mn=0;
-            // for (int i = 0; i < n; i++)
-            // {
-            //     if (A[i]<min)
-            //     {min=A[i];}
-            //     if (A[i]>max)
-            //     {max=A[i];}
-            // }   
-            // for (int i = 0; i < n;i++)
-            // {
-            //     if (A[i]==max)
-            //     {mx=i;}
-            //     if (A[i]==min)
-            //     {mn=i;}
-            // }
-            // if(mx>mn)
-            // {   mn+=1;
-            //     for (int i =mn;i<mx;i++)
-            //     {tich*=A[i];}
-            // }
-            // else 
-            // {   mx+=1;
-            //     for (int i =mx;i<mn;i++)
-            //     {tich*=A[i];}
-            // }
-            // Console.WriteLine("Tich " + tich);
-            // dùng thư viện 
             float tich=1;
             float maxA=A.Max(),minA=A.Min();
             int imaxA=Array.IndexOf(A,maxA),iminA=Array.IndexOf(A,minA);
@@ -93,17 +63,13 @@ namespace c1b3
                 intA[i]=(int) A[i];
                 // ép kiểu int với từng phần tử trong A 
             }
-            int iB=0,demchan=0;
-            foreach (int i in A)
-            {
-                if (i%2==0)
-                {demchan+=1;}
-            }
-            int [] B=new int [demchan]; 
+            int iB=0,size=0;
+            int [] B=new int [size]; 
             for (int i=0;i<n;i++)
             {
                 if (intA[i]%2==0)
-                {
+                {   
+                    size++;Array.Resize(ref B,size);
                     B[iB]=intA[i];iB+=1;
                 }
             }
@@ -111,7 +77,7 @@ namespace c1b3
             foreach (int i in intA)
             {
                 if (i%2!=0)
-                {B[demchan]=i;demchan+=1;}
+                {B[size]=i;size++;}
             } 
             Console.Write("A_biendoi = [");
             for (int i=0;i<n;i++)

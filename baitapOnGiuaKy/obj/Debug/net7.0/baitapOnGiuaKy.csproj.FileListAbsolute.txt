@@ -1,0 +1,14 @@
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.AssemblyInfoInputs.cache
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.AssemblyInfo.cs
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.csproj.CoreCompileInputs.cache
+D:\OOP\baitapOnGiuaKy\bin\Debug\net7.0\baitapOnGiuaKy.exe
+D:\OOP\baitapOnGiuaKy\bin\Debug\net7.0\baitapOnGiuaKy.deps.json
+D:\OOP\baitapOnGiuaKy\bin\Debug\net7.0\baitapOnGiuaKy.runtimeconfig.json
+D:\OOP\baitapOnGiuaKy\bin\Debug\net7.0\baitapOnGiuaKy.dll
+D:\OOP\baitapOnGiuaKy\bin\Debug\net7.0\baitapOnGiuaKy.pdb
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.dll
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\refint\baitapOnGiuaKy.dll
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.pdb
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\baitapOnGiuaKy.genruntimeconfig.cache
+D:\OOP\baitapOnGiuaKy\obj\Debug\net7.0\ref\baitapOnGiuaKy.dll
