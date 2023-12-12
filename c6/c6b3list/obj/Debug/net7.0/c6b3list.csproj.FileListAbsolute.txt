@@ -1,0 +1,14 @@
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.AssemblyInfoInputs.cache
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.AssemblyInfo.cs
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.csproj.CoreCompileInputs.cache
+D:\OOP\c6\c6b3list\bin\Debug\net7.0\c6b3list.exe
+D:\OOP\c6\c6b3list\bin\Debug\net7.0\c6b3list.deps.json
+D:\OOP\c6\c6b3list\bin\Debug\net7.0\c6b3list.runtimeconfig.json
+D:\OOP\c6\c6b3list\bin\Debug\net7.0\c6b3list.dll
+D:\OOP\c6\c6b3list\bin\Debug\net7.0\c6b3list.pdb
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.dll
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\refint\c6b3list.dll
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.pdb
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\c6b3list.genruntimeconfig.cache
+D:\OOP\c6\c6b3list\obj\Debug\net7.0\ref\c6b3list.dll
